@@ -1,0 +1,126 @@
+# macOS system files
+
+.AppleDouble
+.LSOverride
+**/DS_Store
+# macOS Finder tags
+*.swp
+._*
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python virtual environments
+.env/
+.venv/
+env/
+venv/
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# pyenv
+.python-version
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# pytest
+.cache/
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# coverage
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# PyInstaller
+dist/
+build/
+*.spec
+
+# R specific files
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+.Rproj.user/
+.Rproj.user/*
+.Rproj.user/**
+
+# RStudio
+*.Rproj
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# renv (R virtual environments)
+renv/library/
+renv/python/
+renv/staging/
+
+# R packages built locally
+*.tar.gz
+
+# VS Code
+.vscode/
+
+# JetBrains IDEs (PyCharm, etc.)
+.idea/
+
+# Logs
+*.log
+
+# Backup files
+*~
+*.bak
+
+# Jupyter Notebook metadata (optional)
+.ipynb_checkpoints/
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# Local test databases or outputs
+*.sqlite3
+*.db
+*.rds
+*.feather
+*.parquet
+*.csv
+*.tsv
+
+# Build artifacts
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
