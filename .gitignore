@@ -124,3 +124,6 @@ var/
 .installed.cfg
 *.egg
 MANIFEST
+
+/.quarto/
+**/*.quarto_ipynb
